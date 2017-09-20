@@ -22,7 +22,7 @@ namespace SampleStoreDI
             services.AddMvc();
 
             //Configuração da Injeção de Dependência do Repositório
-            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddTransient<IProductRepository, ProductRepository>();
 
             //Configuração da Conexão 
             services.AddDbContext<ProductDbContext>(options =>
