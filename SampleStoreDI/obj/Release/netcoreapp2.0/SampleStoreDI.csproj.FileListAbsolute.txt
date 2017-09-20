@@ -1,0 +1,11 @@
+C:\Users\leoja\Workspaces\VisualStudio\AspNetCore\SampleStoreDI\SampleStoreDI\bin\Release\netcoreapp2.0\SampleStoreDI.deps.json
+C:\Users\leoja\Workspaces\VisualStudio\AspNetCore\SampleStoreDI\SampleStoreDI\bin\Release\netcoreapp2.0\SampleStoreDI.runtimeconfig.json
+C:\Users\leoja\Workspaces\VisualStudio\AspNetCore\SampleStoreDI\SampleStoreDI\bin\Release\netcoreapp2.0\SampleStoreDI.runtimeconfig.dev.json
+C:\Users\leoja\Workspaces\VisualStudio\AspNetCore\SampleStoreDI\SampleStoreDI\bin\Release\netcoreapp2.0\SampleStoreDI.dll
+C:\Users\leoja\Workspaces\VisualStudio\AspNetCore\SampleStoreDI\SampleStoreDI\bin\Release\netcoreapp2.0\SampleStoreDI.pdb
+C:\Users\leoja\Workspaces\VisualStudio\AspNetCore\SampleStoreDI\SampleStoreDI\obj\Release\netcoreapp2.0\SampleStoreDI.csprojResolveAssemblyReference.cache
+C:\Users\leoja\Workspaces\VisualStudio\AspNetCore\SampleStoreDI\SampleStoreDI\obj\Release\netcoreapp2.0\SampleStoreDI.csproj.CoreCompileInputs.cache
+C:\Users\leoja\Workspaces\VisualStudio\AspNetCore\SampleStoreDI\SampleStoreDI\obj\Release\netcoreapp2.0\SampleStoreDI.AssemblyInfoInputs.cache
+C:\Users\leoja\Workspaces\VisualStudio\AspNetCore\SampleStoreDI\SampleStoreDI\obj\Release\netcoreapp2.0\SampleStoreDI.AssemblyInfo.cs
+C:\Users\leoja\Workspaces\VisualStudio\AspNetCore\SampleStoreDI\SampleStoreDI\obj\Release\netcoreapp2.0\SampleStoreDI.dll
+C:\Users\leoja\Workspaces\VisualStudio\AspNetCore\SampleStoreDI\SampleStoreDI\obj\Release\netcoreapp2.0\SampleStoreDI.pdb
