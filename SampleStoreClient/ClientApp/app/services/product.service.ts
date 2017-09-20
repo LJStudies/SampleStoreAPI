@@ -15,7 +15,7 @@ export class ProductService {
             .map(data => <IProduct[]>data.json());
     }
 
-    //Put
+    //GetById
     getProduct(productId: number) {
         return this.http.get(`http://ljasmimsamplestore.azurewebsites.net/api/products/${productId}`)
             .map(data => <IProduct>data.json());
