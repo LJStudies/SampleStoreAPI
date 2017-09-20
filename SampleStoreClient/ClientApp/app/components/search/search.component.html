@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1> Buscar Produto </h1>
+    <hr>
+    <section>
+        <section>
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-10">
+                    <form [formGroup]="formSearch" (ngSubmit)="onSubmit()">
+                        <div class="form-vertical">
+                            <div class="form-group" style="vertical-align:middle">
+                                <div class="col-xs-6 col-sm-3">
+                                    <input class="form-control" type="number" formControlName="searchId" placeholder="Insira um ID...">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </section>
+    <hr>
+    <section>
+        <section>
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-10">
+                    <form [formGroup]="formProduct" (ngSubmit)="onSubmit()">
+                        <div class="form-horizontal">
+
+                            <div style="text-align:center">
+                                <img src={{product.imageUrl}} width={{widthImage}} height="{{heightImage}}"/>
+                            </div>
+                            <br/>
+                            <div class="form-group">
+                                <label class="control-label col-xs-12 col-sm-2">ID:</label>
+                                <div class="col-xs-12 col-sm-3">
+                                    <input class="form-control" type="text" formControlName="id">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-xs-12 col-sm-2">Produto:</label>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input class="form-control" type="text" formControlName="name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-xs-12 col-sm-2">Descrição:</label>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input class="form-control" type="text" formControlName="description">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-xs-12 col-sm-2">Preço:</label>
+                                <div class="col-xs-12 col-sm-3">
+                                    <input class="form-control" type="text" formControlName="price">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </section>
+
+</body>
+</html>
